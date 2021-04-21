@@ -85,7 +85,8 @@
             <div class="controls-top text-center" id="Order-now">
                 <h2>Order Here</h2>
             </div>
-            <h2>Order your pizza here and we will prepare it in the best way, and deliver it at your home if you wish</h2>
+            <h2>Order your pizza here and we will prepare it in the best way, and deliver it at your home if you wish
+            </h2>
             <div class="row">
                 <div class="col-sm-5">
                     <form action="">
@@ -139,9 +140,56 @@
 
                     </form>
                 </div>
+                <div class="choice">
+                    <h2>Your Order is:</h2>
+                    <div id="your-orders">
+                        <table class="table table-sm  pizzatable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Size</th>
+                                    <th scope="col">Crust</th>
+                                    <th scope="col">Topping</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ordersmade">
+                                <tr>
+                                    <td id="pizzaname"></td>
+                                    <td id="pizzasize"></td>
+                                    <td id="pizzacrust"></td>
+                                    <td id="pizzatopping"></td>
+                                    <td id="totals"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p id="pizzatotal"></p>
+                        <p id="totalbill"></p>
+                        <p id="addedprice">Delivery will cost sh. 150</p>
+                        <p id="finallmessage"></p>
+                    </div>
+                    <button class="btn btn-orange addPizza">Add Pizza</button>
+                    <button class="btn btn-orange" id="checkout">Checkout</button>
+                    <button class="btn btn-orange deliver">Home delivery?</button>
+                </div>
+                <div class="delivery">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                            <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                            <input type="text" id="location" class="form-control mb-3"
+                                placeholder="Location for delivery">
+                            <button class="btn btn-orange" id="final-order">Place Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-                <script src="jquery-3.6.0.js" async defer></script>
-                <script src="scripts.js"></script>
+    <script src="jquery-3.6.0.js" async defer></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
