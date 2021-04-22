@@ -124,3 +124,9 @@
     background-size: cover;
     color: blue;
   }
+  .content {
+    background-color: burlywood;
+  }
+  .content h3 {
+    text-align: center;
+  }
