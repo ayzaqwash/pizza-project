@@ -56,3 +56,29 @@
     color: black;
     display: none;
   }
+
+  .choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .choise h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+    color: white;
+    font-size: 30px;
+  }
