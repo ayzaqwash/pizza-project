@@ -79,7 +79,7 @@
     font-size: 20px;
     color: white;
   }
-  .choise h2{
+  .choice h2{
     color:orange;
     text-align: left;
   }
@@ -117,6 +117,7 @@
   .controls-top h2 {
     text-align: center;
     color: red;
+    padding-top: 30px;
   }
   #contactdetails {
     background: url(images/pizzabg2.jpeg);
