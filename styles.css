@@ -130,3 +130,18 @@
   .content h3 {
     text-align: center;
   }
+  #about-des {
+    background: radial-gradient(#fff, #704170);
+  }
+  .btn1 {
+    display: inline-block;
+    background: #ff523b;
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background o.5s;
+  }
+  .btn1:hover {
+    background: #563434;
+  }
