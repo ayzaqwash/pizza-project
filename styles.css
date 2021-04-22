@@ -104,3 +104,13 @@
     padding-bottom: 20px;
     padding-left: 6%;
   }
+
+  footer {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Delius Swash Caps', cursive;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
