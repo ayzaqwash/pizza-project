@@ -59,7 +59,7 @@
   .hidentext {
     background: white;
     color: black;
-    display: none;
+    /* display: none; */
   }
 
   .choice{
@@ -117,4 +117,10 @@
   .controls-top h2 {
     text-align: center;
     color: red;
+  }
+  #contactdetails {
+    background: url(images/pizzabg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
   }
