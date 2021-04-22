@@ -114,3 +114,7 @@
   footer p {
     margin-top: 10px;
   }
+  .controls-top h2 {
+    text-align: center;
+    color: red;
+  }
