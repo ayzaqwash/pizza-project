@@ -63,15 +63,15 @@
   }
 
   .choice{
-    display: none;
+    /* display: none; */
     padding-left: 2%;
     padding-right: 2%;
   }
   .deliver{
-    display: none;
+    /* display: none; */
   }
   .delivery{
-    display: none;
+    /* display: none; */
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -134,7 +134,7 @@
   #about-des {
     background: radial-gradient(#fff, #704170);
   }
-  .btn1 {
+  .btn {
     display: inline-block;
     background: #ff523b;
     color:#fff;
