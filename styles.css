@@ -59,19 +59,19 @@
   .hidentext {
     background: white;
     color: black;
-    /* display: none; */
+    display: none;
   }
 
   .choice{
-    /* display: none; */
+    display: none;
     padding-left: 2%;
     padding-right: 2%;
   }
   .deliver{
-    /* display: none; */
+    display: none;
   }
   .delivery{
-    /* display: none; */
+    display: none;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -145,4 +145,15 @@
   }
   .btn1:hover {
     background: #563434;
+  }
+  #information {
+    padding: 15px;
+    text-align: justify;
+    color: #ff523b;
+  }
+  #regards {
+    color: green;
+    font-size: large;
+    text-align: center;
+    text-decoration: indianred;
   }

@@ -13,7 +13,7 @@ function Getpizza( name,size,crust,topping, total ){
 $(document).ready(function(){
   $("button.proceed").click(function(){
     $("button.proceed").hide();
-    // $("#information").hide();
+    $("#information").hide();
     $("div.choice").slideDown(1000);
   });
   $("button.proceed").click(function(event){
