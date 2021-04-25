@@ -58,13 +58,13 @@ $(document).ready(function(){
       case "0":
         crust_price = 0;
       break;
-      case "Crispy":
+      case "Vegan friendly":
         crust_price = 170;
       break;
-      case "Stuffed":
+      case "Focaccia":
         crust_price = 150;
       break;
-      case "Gluten-free":
+      case "Gluten":
         crust_price = 100;
       break;
       default:
@@ -138,13 +138,13 @@ $(document).ready(function(){
           case "0":
             crust_price = 0;
           break;
-          case "Crispy":
+          case "Vegan friendly":
             crust_price = 170;
           break;
-          case "Stuffed":
+          case "Focaccia":
             crust_price = 150;
           break;
-          case "Gluten-free":
+          case "Gluten":
             crust_price = 100;
           break;
           default:
@@ -198,7 +198,7 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliveryamount= checkoutTotal+100;
+      // let deliveryamount= checkoutTotal+100;
       console.log("Final Bill is: "+deliveryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
