@@ -44,6 +44,10 @@
     font-size: 20px;
     text-align: center;
   }
+  #our-variety {
+    text-align: center;
+    color: blue;
+  }
   
   
   
@@ -59,7 +63,6 @@
   .hidentext {
     background: white;
     color: black;
-    display: none;
   }
 
   .choice{

@@ -1,8 +1,8 @@
-# Delani Studio
+# Pizza Project
 ## Author
 Isaac Wachira
 ## Description
-Its a web application is a copy of the existing delani studio website
+Its a web application for customers to purchase pizza online and get it delivered at home
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
